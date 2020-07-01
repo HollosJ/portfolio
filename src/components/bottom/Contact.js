@@ -31,7 +31,7 @@ export default function Contact() {
         </a>
         <a
           className="contact-link"
-          href="https://drive.google.com/file/d/1mbxZghfnkW06bV4FQay76_hxnffBWjJl/view?usp=sharing"
+          href="https://drive.google.com/file/d/1025ja3ser6s5GgM5G2Btenl25hoAtggZ/view?usp=sharing"
           target="_blank"
         >
           <FontAwesomeIcon className="faIcon" icon={["fas", "file"]} />
