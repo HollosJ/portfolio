@@ -1,38 +1,339 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #1c1c31;
+  min-height: 200vh;
+  font-family: "Roboto Slab";
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(100vh);
+      scroll-snap-points-y: repeat(100vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Top,
+.Middle,
+.Bottom {
+  scroll-snap-align: start;
+}
+
+.Header {
+  -webkit-box-shadow: 3px 0 15px black;
+          box-shadow: 3px 0 15px black;
+  width: 100%;
+  padding: 1em;
+  background-color: #162447;
+  color: #eeeeee;
+}
+
+.Top {
+  background: url("./components/top/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Top .Intro {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eeeeee;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.Top .Intro a {
+  text-decoration: none;
+}
+
+.Top .Intro .projectBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2em;
+  border: 3px solid #eeeeee;
+  width: 20em;
+  padding: 0.5em;
+  color: #eeeeee;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.Top .Intro .projectBtn:hover {
+  background-color: #eeeeee;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #1c1c31;
+}
+
+.Middle {
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+
+.Middle .Projects {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Middle .Projects .Project {
+  background-color: #1f4068;
+  color: #eeeeee;
+  -webkit-box-shadow: 0 0 1em #162447;
+          box-shadow: 0 0 1em #162447;
+  height: 100%;
+  max-width: 600px;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Middle .Projects .Project .project-title {
+  font-size: 1.5em;
+}
+
+.Middle .Projects .Project img {
+  width: 100%;
+}
+
+.Middle .Projects .Project .project-description {
+  width: 90%;
+  margin-top: 1em;
+  min-height: 10em;
+}
+
+.Middle .Projects .Project h3 {
+  margin-top: 0.3em;
+}
+
+.Middle .Projects .Project .project-technologies,
+.Middle .Projects .Project .project-notables {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+.Middle .Projects .Project .project-technologies .tech,
+.Middle .Projects .Project .project-technologies .notable,
+.Middle .Projects .Project .project-notables .tech,
+.Middle .Projects .Project .project-notables .notable {
+  background-color: #e43f5a;
+  padding: 0.3em;
+  margin: 0 0.1em 0.5em 0.1em;
+}
+
+.Middle .Projects .Project .project-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.Middle .Projects .Project .project-links a {
+  text-decoration: none;
+  background-color: #eeeeee;
+  padding: 1em;
+  margin-bottom: 0.3em;
+  color: #1c1c31;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.Middle .Projects .Project .project-links a:nth-child(2) {
+  background-color: #1c1c31;
+  color: #eeeeee;
+}
+
+.Middle .Projects .Project .project-links a:hover {
+  background-color: #162447;
+  color: #eeeeee;
+  letter-spacing: 5px;
+}
+
+.About {
+  background-color: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .Content {
+  padding: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+}
+
+.About .Content .about-description {
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.About .Content .about-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1em;
+  height: 100%;
+  width: 100%;
+}
+
+.About .Content .about-skills a {
+  text-decoration: none;
+  margin: 0.2em;
+}
+
+.About .Content .about-skills a:hover .faIcon {
+  -webkit-transform: translateY(-1em);
+          transform: translateY(-1em);
+  -webkit-transform: rotate(365deg) scale(1.2);
+          transform: rotate(365deg) scale(1.2);
+}
+
+.About .Content .about-skills li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.1em;
+  font-size: 1em;
+  font-weight: 800;
+  color: #e43f5a;
+  cursor: pointer;
+}
+
+.About .Content .about-skills li .faIcon {
+  font-size: 3em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 0.1em;
+}
+
+.Bottom {
+  min-height: 100vh;
+  background-color: #eeeeee;
+}
+
+@media (min-width: 768px) {
+  .Intro {
+    font-size: 1.5em;
   }
 }
+/*# sourceMappingURL=App.css.map */
