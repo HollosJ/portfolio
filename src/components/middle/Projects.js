@@ -35,7 +35,7 @@ const Projects = () => {
           "Gulp.js",
           "FontAwesome Icons",
         ]}
-        notables={["Responsive layout", "Sass Partials", "Responsive"]}
+        notables={["Responsive layout", "Sass Partials"]}
         live="https://hollosj.github.io/nordiq-travel-agency/"
         code="https://github.com/HollosJ/nordiq-travel-agency"
       />
@@ -54,6 +54,24 @@ const Projects = () => {
         ]}
         live="https://hollosj.github.io/re-audi/"
         code="https://github.com/HollosJ/re-audi/tree/master/src"
+      />
+      {/* PORTFOLIO */}
+      <Project
+        name="Portfolio"
+        preview="https://imgur.com/GueowXa.jpg"
+        fullimg="https://imgur.com/WCMNIYr.png"
+        desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data as props, rather than navigating through a messy HTML page."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "ReactJS",
+          "React Tilt",
+          "JavaScript",
+          "Google Forms",
+        ]}
+        notables={["Responsive layout", "React Tilt JS"]}
+        live="#"
+        code="https://github.com/HollosJ/portfolio/tree/master/src"
       />
       {/* WEATHER APP */}
       <Project
