@@ -20,20 +20,12 @@ $shadow-smooth: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 body {
   min-height: 200vh;
   font-family: "Roboto Slab";
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
   background-color: $white;
 }
 
 html {
   scroll-behavior: smooth;
   font-size: 12px;
-}
-.Top,
-.Middle,
-.Bottom {
-  scroll-snap-align: start;
 }
 
 .Header {
