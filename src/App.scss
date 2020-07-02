@@ -188,7 +188,7 @@ html {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: white;
+  color: $purple;
 
   box-shadow: $shadow-smooth;
   position: relative;
@@ -335,7 +335,6 @@ html {
 .Bottom {
   min-height: 100vh;
   margin-top: 5rem;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -354,7 +353,7 @@ html {
     .contact-links {
       display: flex;
       padding: 1rem 0;
-      border: 3px solid $purple;
+
       border-radius: 0.5rem;
       background-color: white;
       justify-content: space-between;
@@ -394,8 +393,6 @@ html {
     }
     .contact-form {
       max-width: 30rem;
-      padding: 0;
-      background-color: $white;
     }
   }
 }
@@ -433,6 +430,7 @@ html {
   }
 }
 
+//Animated bg
 @-webkit-keyframes animate-bg {
   0% {
     background-position: 0% 50%;
