@@ -1,13 +1,15 @@
 import React from "react";
 import Intro from "./Intro";
-import Tilt from "react-tilt";
+
+import Arrow from "./down.svg";
 
 export default function Top() {
   return (
     <div className="Top">
-      <Tilt className="Tilt" options={{ max: 20, reverse: true }}>
-        <Intro />
-      </Tilt>
+      <Intro />
+      <a href="#about" className="projectBtn">
+        <img src={Arrow} alt="" />
+      </a>
     </div>
   );
 }

@@ -7,7 +7,6 @@
 }
 
 $darkblue: #162447;
-$regblue: #1f4068;
 $purple: #673ab7;
 $pink: #e43f5a;
 $white: #eeeeee;
@@ -45,14 +44,17 @@ html {
 
 //intro section ### TOP ###
 .Top {
-  background: url("./components/top/bg.png");
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(153deg, #162447, #673ab7);
+  background-size: 400% 400%;
+  -webkit-animation: animate-bg 30s ease infinite;
+  -moz-animation: animate-bg 30s ease infinite;
+  animation: animate-bg 30s ease infinite;
+
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  position: relative;
 
   .Intro {
     width: 100%;
@@ -60,29 +62,27 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: $white;
-    font-size: 1.3rem;
-    a {
-      text-decoration: none;
-    }
+    font-size: 1.5rem;
+  }
 
-    .projectBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .projectBtn {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
 
-      margin-top: 2em;
-      border: 3px solid $white;
-      width: 20em;
-      padding: 0.5em;
-      color: $white;
-      transition: all 0.5s ease;
-      cursor: pointer;
-      &:hover {
-        background-color: $white;
-        transform: scale(1.1);
-        color: $purple;
-      }
+    bottom: 3rem;
+    left: 50%;
+
+    animation-name: scroll-arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      filter: invert(1);
     }
   }
 }
@@ -158,10 +158,10 @@ html {
 //projects section ### MIDDLE ###
 .Middle {
   min-height: 50vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3rem;
   .instruction {
     margin-top: 2rem;
     font-size: 1rem;
@@ -315,7 +315,9 @@ html {
         margin: 0.25rem 0;
         text-decoration: none;
         color: $white;
-        background-color: $regblue;
+        background-color: $purple;
+        transition: all 0.3s ease;
+        border-radius: 0.3rem;
 
         &:hover {
           background-color: $darkblue;
@@ -328,6 +330,7 @@ html {
 //contact section ### BOTTOM ###
 .Bottom {
   min-height: 100vh;
+  margin-top: 5rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -407,6 +410,52 @@ html {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes scroll-arrow {
+  0% {
+    transform: translate(-50%, -1rem);
+  }
+  50% {
+    transform: translate(-50%, 1rem);
+  }
+  100% {
+    transform: translate(-50%, -1rem);
+  }
+}
+
+@-webkit-keyframes animate-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes animate-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes animate-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
