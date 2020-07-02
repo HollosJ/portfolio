@@ -42,14 +42,17 @@ html {
   display: flex;
 }
 
-//intro section ### TOP ###
-.Top {
+.Top,
+.Bottom {
   background: linear-gradient(153deg, #162447, #673ab7);
   background-size: 400% 400%;
   -webkit-animation: animate-bg 30s ease infinite;
   -moz-animation: animate-bg 30s ease infinite;
   animation: animate-bg 30s ease infinite;
+}
 
+//intro section ### TOP ###
+.Top {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -185,6 +188,7 @@ html {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  color: white;
 
   box-shadow: $shadow-smooth;
   position: relative;
@@ -342,10 +346,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .contact-links,
+    .contact-form {
+      margin-top: 1rem;
+    }
+
     .contact-links {
       display: flex;
       padding: 1rem 0;
-      margin-top: 1rem;
       border: 3px solid $purple;
       border-radius: 0.5rem;
       background-color: white;
@@ -385,9 +393,9 @@ html {
       }
     }
     .contact-form {
-      margin-top: 1rem;
       max-width: 30rem;
       padding: 0;
+      background-color: $white;
     }
   }
 }
