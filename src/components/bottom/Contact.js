@@ -29,6 +29,10 @@ export default function Contact() {
           <FontAwesomeIcon className="faIcon" icon={["fab", "codepen"]} />
           <span>Codepen</span>
         </a>
+        <a className="contact-link" href="mailto:hollosj99@gmail.com">
+          <FontAwesomeIcon className="faIcon" icon={["fas", "at"]} />
+          <span>Email</span>
+        </a>
         <a
           className="contact-link"
           href="https://drive.google.com/file/d/1025ja3ser6s5GgM5G2Btenl25hoAtggZ/view?usp=sharing"

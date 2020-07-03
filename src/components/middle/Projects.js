@@ -60,7 +60,7 @@ const Projects = () => {
         name="Portfolio"
         preview="https://imgur.com/GueowXa.jpg"
         fullimg="https://imgur.com/WCMNIYr.png"
-        desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data as props, rather than navigating through a messy HTML page."
+        desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data you're currently reading as props."
         tech={[
           "HTML",
           "Sass/SCSS",

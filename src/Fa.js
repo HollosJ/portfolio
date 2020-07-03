@@ -13,7 +13,7 @@ import {
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faAt } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
   faHtml5,
@@ -26,5 +26,6 @@ library.add(
   faLinkedin,
   faGithubSquare,
   faCodepen,
-  faFile
+  faFile,
+  faAt
 );
