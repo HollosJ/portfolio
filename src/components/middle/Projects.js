@@ -22,23 +22,6 @@ const Projects = () => {
         live="https://hollosj.github.io/react-countries/"
         code="https://github.com/HollosJ/react-countries/tree/master"
       />
-      {/* NORDIQ */}
-      <Project
-        name="Nordiq Travel Agency"
-        preview="https://imgur.com/D1klLEF.jpg"
-        fullimg="https://imgur.com/z3VQPQ1.png"
-        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
-        tech={[
-          "HTML",
-          "Sass/SCSS",
-          "JavaScript",
-          "Gulp.js",
-          "FontAwesome Icons",
-        ]}
-        notables={["Responsive layout", "Sass Partials"]}
-        live="https://hollosj.github.io/nordiq-travel-agency/"
-        code="https://github.com/HollosJ/nordiq-travel-agency"
-      />
       {/* RE-AUDI */}
       <Project
         name="Re-Audi | Audi UK Clone"
@@ -72,6 +55,23 @@ const Projects = () => {
         notables={["Responsive layout", "React Tilt JS"]}
         live="#"
         code="https://github.com/HollosJ/portfolio/tree/master/src"
+      />
+      {/* NORDIQ */}
+      <Project
+        name="Nordiq Travel Agency"
+        preview="https://imgur.com/D1klLEF.jpg"
+        fullimg="https://imgur.com/z3VQPQ1.png"
+        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "JavaScript",
+          "Gulp.js",
+          "FontAwesome Icons",
+        ]}
+        notables={["Responsive layout", "Sass Partials"]}
+        live="https://hollosj.github.io/nordiq-travel-agency/"
+        code="https://github.com/HollosJ/nordiq-travel-agency"
       />
       {/* WEATHER APP */}
       <Project
