@@ -73,7 +73,7 @@ const About = () => {
           <a href="https://getbootstrap.com/" target="_blank">
             <li>
               <FontAwesomeIcon className="faIcon" icon={["fab", "bootstrap"]} />
-              Bootstrap 3/4
+              Bootstrap
             </li>
           </a>
           <a href="https://www.adobe.com">
