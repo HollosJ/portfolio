@@ -56,6 +56,7 @@ const Projects = () => {
         live="#"
         code="https://github.com/HollosJ/portfolio/tree/master/src"
       />
+      {/* THE GALLERY */}
       <Project
         name="theGallery"
         preview="https://i.imgur.com/zpgUl7d.png"
