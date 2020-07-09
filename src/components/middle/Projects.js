@@ -56,6 +56,28 @@ const Projects = () => {
         live="#"
         code="https://github.com/HollosJ/portfolio/tree/master/src"
       />
+      <Project
+        name="theGallery"
+        preview="https://i.imgur.com/zpgUl7d.png"
+        fullimg="https://i.imgur.com/fbcmrPf.png"
+        desc="This is a basic gallery site built using Bootstrap 4, and ColcadeJS - a masonry-layout library."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "Bootstrap 4",
+          "Colcade.js",
+          "JavaScript",
+          "Gulp.js",
+        ]}
+        notables={[
+          "Responsive layout",
+          "Bootstrap",
+          "FontAwesome",
+          "Masonry image layout",
+        ]}
+        live="https://hollosj.github.io/the-gallery"
+        code="https://github.com/HollosJ/the-gallery"
+      />
       {/* NORDIQ */}
       <Project
         name="Nordiq Travel Agency"
