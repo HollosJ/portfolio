@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9580fe261025ea729e4479bfb7df2ef",
+    "revision": "fd157a7837c93d91898f31e1f4e90bf1",
     "url": "/index.html"
   },
   {
-    "revision": "777428666e3d34335e90",
+    "revision": "7268267f3b6971623327",
     "url": "/static/css/main.c93386c4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cc8e8cc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "777428666e3d34335e90",
-    "url": "/static/js/main.b384cf17.chunk.js"
+    "revision": "7268267f3b6971623327",
+    "url": "/static/js/main.6476e079.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/down.d6b95c2a.svg"
   },
   {
-    "revision": "8422ddd62b106417d9884b313f8a399c",
-    "url": "/static/media/ps-logo.8422ddd6.svg"
+    "revision": "a8a0fc295eb5c2b62668e7190e12bcd9",
+    "url": "/static/media/ps-logo.a8a0fc29.svg"
   }
 ]);
