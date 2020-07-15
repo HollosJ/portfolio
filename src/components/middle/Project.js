@@ -4,8 +4,16 @@ import CloseIcon from "./close-icon.png";
 const ProjectPreview = (props) => {
   const [open, setOpen] = useState(false);
 
+  //Handles opening and closing modal
   const handleClick = () => {
     setOpen(!open);
+  };
+
+  //Handles click outside of modal box
+  const handleModalClick = (e) => {
+    if (e.target.className === "ProjectDetails") {
+      setOpen(!open);
+    }
   };
 
   return (
@@ -16,7 +24,7 @@ const ProjectPreview = (props) => {
       </div>
 
       {open === true ? (
-        <div className="ProjectDetails">
+        <div className="ProjectDetails" onClick={handleModalClick}>
           <img
             className="details-close"
             src={CloseIcon}
