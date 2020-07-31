@@ -64,7 +64,7 @@ const About = () => {
               Sass/SCSS
             </li>
           </a>
-          <a href="https://gulpjs.com/">
+          <a href="https://gulpjs.com/" target="_blank">
             <li>
               <FontAwesomeIcon className="faIcon" icon={["fab", "gulp"]} />
               GulpJS
@@ -76,7 +76,7 @@ const About = () => {
               Bootstrap
             </li>
           </a>
-          <a href="https://www.adobe.com">
+          <a href="https://www.adobe.com" target="_blank">
             <li>
               <img src={PSLogo} alt="" id="PSLogo" />
               Photoshop
