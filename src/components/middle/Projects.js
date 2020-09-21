@@ -6,6 +6,16 @@ const Projects = () => {
     <div className="Projects">
       {/* REACT COUNTRIES */}
       <Project
+        name="War Cards"
+        preview="https://i.imgur.com/73cgMId.png"
+        fullimg="https://i.imgur.com/S0vbqwp.png"
+        desc="War Cards is a site where the user can find short bullet-pointed key events from history, for example WW1 and WW2, as well as the Cold War."
+        tech={["HTML", "SCSS", "ReactJS", "React Router", "JavaScript"]}
+        notables={["Responsive", "Card slider", "React Routing", "Custom data"]}
+        live="https://hollosj.github.io/war-cards"
+        code="https://github.com/HollosJ/war-cards/tree/master"
+      />
+      <Project
         name="React Countries"
         preview="https://imgur.com/ssl1TbL.jpg"
         fullimg="https://imgur.com/D8Zd2Pu.png"
