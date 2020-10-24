@@ -8,7 +8,7 @@ const Projects = () => {
       <Project
         name="War Cards"
         preview="https://i.imgur.com/73cgMId.png"
-        fullimg="https://i.imgur.com/S0vbqwp.png"
+        fullimg="https://i.imgur.com/xpOsjY7.png"
         desc="War Cards is a site where the user can find short bullet-pointed key events from history, for example WW1 and WW2, as well as the Cold War."
         tech={["HTML", "SCSS", "ReactJS", "React Router", "JavaScript"]}
         notables={["Responsive", "Card slider", "React Routing", "Custom data"]}
@@ -18,7 +18,7 @@ const Projects = () => {
       <Project
         name="React Countries"
         preview="https://imgur.com/ssl1TbL.jpg"
-        fullimg="https://imgur.com/D8Zd2Pu.png"
+        fullimg="https://i.imgur.com/X60g45S.png"
         desc="React Countries is an app build using the RESTCountries API. It allows the user to search for a country, and instantly get data belonging to that specific country, such as currency, language, capital and flag. This project was based on a project I had previously build in Vanilla JS; I learnt a lot by doing this project in React and I thoroughly enjoyed building it."
         tech={[
           "HTML",
@@ -36,7 +36,7 @@ const Projects = () => {
       <Project
         name="Re-Audi | Audi UK Clone"
         preview="https://imgur.com/fXJHD26.jpg"
-        fullimg="https://imgur.com/jlevT1w.png"
+        fullimg="https://i.imgur.com/mDpUaPE.png"
         desc="Re-Audi is a clone of the Audi UK website. Since this was a clone, I was able to work from the original design of the site, following the same features such as hover effects, side-menu, button animations etc."
         tech={["HTML", "Sass/SCSS", "ReactJS", "JavaScript"]}
         notables={[
@@ -52,7 +52,7 @@ const Projects = () => {
       <Project
         name="Portfolio"
         preview="https://imgur.com/GueowXa.jpg"
-        fullimg="https://imgur.com/WCMNIYr.png"
+        fullimg="https://i.imgur.com/Lo9zzFB.png"
         desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data you're currently reading as props."
         tech={[
           "HTML",
@@ -70,7 +70,7 @@ const Projects = () => {
       <Project
         name="theGallery"
         preview="https://i.imgur.com/zpgUl7d.png"
-        fullimg="https://i.imgur.com/fbcmrPf.png"
+        fullimg="https://i.imgur.com/7Ny0zSy.png"
         desc="This is a basic gallery site built using Bootstrap 4, and ColcadeJS - a masonry-layout library."
         tech={[
           "HTML",
@@ -93,7 +93,7 @@ const Projects = () => {
       <Project
         name="Nordiq Travel Agency"
         preview="https://imgur.com/D1klLEF.jpg"
-        fullimg="https://imgur.com/z3VQPQ1.png"
+        fullimg="https://i.imgur.com/NPTJDzb.png"
         desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
         tech={[
           "HTML",
@@ -110,7 +110,7 @@ const Projects = () => {
       <Project
         name="React Weather App"
         preview="https://imgur.com/a8KkcT8.jpg"
-        fullimg="https://imgur.com/NIeeZqr.png"
+        fullimg="https://i.imgur.com/6IWyqgV.png"
         desc="This is a simple weather app built using the OpenWeatherMap API. The application features a dynamic background that changes based on the locations' current time, if at night, the background is darker. Data displayed features temperature, condition, wind speed and direction etc."
         tech={["HTML", "Sass/SCSS", "ReactJS", "JavaScript", "API"]}
         notables={[
