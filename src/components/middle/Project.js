@@ -23,6 +23,7 @@ const ProjectPreview = (props) => {
         <h1 className="prev-title">{props.name}</h1>
       </div>
 
+      
       {open === true ? (
         <div className="ProjectDetails" onClick={handleModalClick}>
           <img
@@ -78,7 +79,7 @@ const ProjectPreview = (props) => {
           {/* END OF DETAILS WRAPPER */}
         </div>
       ) : (
-        console.log("CLOSED")
+        null
       )}
     </div>
   );
