@@ -26,9 +26,8 @@ const About = () => {
             hobby but have decided to take the leap in making it a full time
             career!
           </p>
-          <strong style={{ textAlign: "center" }}>
-            My current technical skills:
-          </strong>
+          <h1 className="instruction">My current technical skills:</h1>
+
         </div>
         <ul className="about-skills">
           <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">

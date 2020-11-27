@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
 * {
   margin: 0;
@@ -18,7 +18,7 @@ $shadow-smooth: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 
 body {
   min-height: 200vh;
-  font-family: "Roboto Slab";
+  font-family: "Poppins", sans-serif;
   background-color: $white;
 }
 
@@ -51,6 +51,13 @@ html {
   animation: animate-bg 30s ease infinite;
 }
 
+.instruction {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba($darkblue, 0.8);
+  font-weight: 400;
+}
 //intro section ### TOP ###
 .Top {
   height: 100vh;
@@ -68,6 +75,13 @@ html {
     text-align: center;
     color: $white;
     font-size: 1.5rem;
+
+    &-name {
+      font-weight: 800;
+    }
+    &-title {
+      font-weight: 400;
+    }
   }
 
   .projectBtn {
@@ -165,11 +179,6 @@ html {
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  .instruction {
-    margin-top: 2rem;
-    font-size: 1rem;
-    text-align: center;
-  }
 
   .Projects {
     justify-content: center;
