@@ -281,13 +281,17 @@ html {
 
     .details-title {
       text-align: center;
+      color: $darkblue;
     }
     .details-img {
       width: 100%;
       max-width: 50rem;
     }
     .details-desc {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: $darkblue;
+      padding: 1rem;
     }
     .details-features {
       .details-tech,
@@ -295,6 +299,7 @@ html {
         width: 100%;
         margin-top: 1rem;
         text-align: center;
+        font-weight: 600;
 
         .tech--items,
         .notables--items {
@@ -328,6 +333,7 @@ html {
         margin: 0.25rem 0;
         text-decoration: none;
         color: $white;
+        font-weight: 800;
         background-color: $purple;
         transition: all 0.3s ease;
         border-radius: 0.3rem;
