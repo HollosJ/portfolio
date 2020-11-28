@@ -51,8 +51,8 @@ const Projects = () => {
       {/* PORTFOLIO */}
       <Project
         name="Portfolio"
-        preview="https://imgur.com/GueowXa.jpg"
-        fullimg="https://i.imgur.com/Lo9zzFB.png"
+        preview="https://i.imgur.com/BsEY4ke.png"
+        fullimg="https://i.imgur.com/SBs7cjM.png"
         desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data you're currently reading as props."
         tech={[
           "HTML",
