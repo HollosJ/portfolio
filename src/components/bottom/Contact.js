@@ -43,17 +43,26 @@ export default function Contact() {
         </a>
       </div>
 
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSd46RQrqYCqz8lTyFu30WZ_urmtVe29sOLAGxZ05CZtUk6yWg/viewform?embedded=true"
-        width="100%"
-        height="1000px"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
-        className="contact-form"
-      >
-        Loading…
-      </iframe>
+      <form action="https://formspree.io/f/xpzodkpp" method="POST" className="contact-form">
+        <label htmlFor="email">
+          Your email:
+          <input type="text" name="_replyto" id="email"/>
+        </label>
+
+        <label htmlFor="name">
+          Your name:
+          <input type="text" name="name" id="name"/>
+        </label>
+
+        <label htmlFor="message">
+          Your message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+
+        <button type="submit" id="submit">Send</button>
+
+      </form>
+
     </div>
   );
 }
