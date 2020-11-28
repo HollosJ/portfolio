@@ -274,6 +274,7 @@ html {
     overflow-y: scroll;
 
     background-color: $white;
+    color: $darkblue;
     box-shadow: $shadow-smooth;
     animation-name: pop-in;
     animation-duration: 0.3s;
@@ -281,7 +282,6 @@ html {
 
     .details-title {
       text-align: center;
-      color: $darkblue;
     }
     .details-img {
       width: 100%;
@@ -290,7 +290,6 @@ html {
     .details-desc {
       font-size: 1.25rem;
       font-weight: 600;
-      color: $darkblue;
       padding: 1rem;
     }
     .details-features {
