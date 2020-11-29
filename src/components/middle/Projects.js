@@ -60,7 +60,7 @@ const Projects = () => {
           "ReactJS",
           "React Tilt",
           "JavaScript",
-          "Google Forms",
+          "Formspree backend",
         ]}
         notables={["Responsive layout", "React Tilt JS"]}
         live="#"
