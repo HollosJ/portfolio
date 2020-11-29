@@ -19,8 +19,8 @@ const ProjectPreview = (props) => {
   return (
     <div className="Project">
       <div className="ProjectPreview" onClick={handleClick}>
-        <img className="prev-img" src={props.preview} alt="" />
         <h1 className="prev-title">{props.name}</h1>
+        <img className="prev-img" src={props.preview} alt="" />
       </div>
 
       
