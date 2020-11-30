@@ -27,6 +27,15 @@ html {
   font-size: 12px;
 }
 
+::selection {
+  background: $pink; /* WebKit/Blink Browsers */
+  color: $white;
+}
+::-moz-selection {
+  background: $pink; /* Gecko Browsers */
+  color: $white;
+}
+
 .Header {
   width: 100%;
   margin-top: 3rem;
