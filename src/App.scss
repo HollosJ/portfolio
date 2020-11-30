@@ -349,9 +349,12 @@ html {
   flex-direction: column;
   align-items: center;
 
+  .Header {
+    color: $white;
+  }
+
   .Contact {
     width: 100%;
-    min-height: 90vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -592,7 +595,6 @@ html {
   .Bottom .Contact {
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 4rem;
 
     .contact-links {
       flex-direction: column;
