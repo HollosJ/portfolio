@@ -476,20 +476,16 @@ html {
   bottom: 0;
   left: 0;
   width: 100%;
-  line-height: 0;
   height: 100%;
   pointer-events: none;
   z-index: 0;
-}
-
-.custom-shape-divider-bottom-1606851356 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-}
-
-.custom-shape-divider-bottom-1606851356 .shape-fill {
-  fill: #eeeeee;
+  svg {
+    position: relative;
+    display: block;
+  }
+  .shape-fill {
+    fill: #eeeeee;
+  }
 }
 
 /*=====ANIMATIONS=====*/
