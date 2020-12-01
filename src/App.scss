@@ -20,6 +20,7 @@ $shadow-smooth: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 body {
   min-height: 200vh;
   background-color: $white;
+  overflow-x: hidden;
 }
 
 html {
@@ -60,6 +61,12 @@ html {
   animation: animate-bg 30s ease infinite;
 }
 
+.Top,
+.Middle {
+  position: relative;
+  z-index: 1;
+}
+
 .instruction {
   margin: 2em 0 1em 0;
   font-size: 1.2rem;
@@ -73,7 +80,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 
   .Intro {
     width: 100%;
@@ -348,6 +354,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 
   .Header {
     color: $white;
@@ -461,6 +468,28 @@ html {
       }
     }
   }
+}
+
+//Wave divider effects https://www.shapedivider.app/
+.custom-shape-divider-bottom-1606851356 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1606851356 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+}
+
+.custom-shape-divider-bottom-1606851356 .shape-fill {
+  fill: #eeeeee;
 }
 
 /*=====ANIMATIONS=====*/
