@@ -11,21 +11,15 @@ const About = () => {
       <div className="Content">
         <div className="about-description">
           <p>
-            Hello! My name is James Hollos, I'm a 21-year old British front-end
-            web developer.
+            Hello! I'm James - a front-end developer based in North-West England. 
           </p>
           <p>
-            I have a firm grasp of HTML, CSS and JavaScript, as well as good
-            knowledge of various frameworks, libraries and tools.
+            I have a firm grasp of HTML, CSS and JavaScript, as well as good knowledge of various frameworks, libraries and tools.
           </p>
           <p>
-            Personally, I am a highly-motivated and productive fast learner who
-            is always looking to learn something new and improve my current
-            skillset. I have a technical background and have always been around
-            computers. I have been coding for over 5 years now, mainly as a
-            hobby but have decided to take the leap in making it a full time
-            career!
+          I am a highly motivated and results driven individual always looking to work with the latest technologies to create fast and responsive web applications.
           </p>
+          <p>Coding has been one of my hobbies for over 5 years and now I am ready to turn it into a full-time career!</p>
           <h1 className="instruction">My current technical skills:</h1>
 
         </div>

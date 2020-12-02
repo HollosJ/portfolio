@@ -138,6 +138,11 @@ html {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+
+      p {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
     }
 
     .about-skills {
