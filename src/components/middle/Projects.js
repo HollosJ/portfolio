@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div className="Projects">
-      {/* REACT COUNTRIES */}
+      {/* WAR CARDS */}
       <Project
         name="War Cards"
         preview="https://i.imgur.com/73cgMId.png"
@@ -15,6 +15,7 @@ const Projects = () => {
         live="https://hollosj.github.io/war-cards"
         code="https://github.com/HollosJ/war-cards/tree/master"
       />
+      {/* REACT COUNTRIES */}
       <Project
         name="React Countries"
         preview="https://imgur.com/ssl1TbL.jpg"
@@ -31,6 +32,23 @@ const Projects = () => {
         notables={["RESTCountries API", "Live Search", "Responsive"]}
         live="https://hollosj.github.io/react-countries/"
         code="https://github.com/HollosJ/react-countries/tree/master"
+      />
+      {/* NORDIQ */}
+      <Project
+        name="Nordiq Travel Agency"
+        preview="https://i.imgur.com/cxAYgQO.png"
+        fullimg="https://i.imgur.com/6SSUrpR.png"
+        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "JavaScript",
+          "Gulp.js",
+          "FontAwesome Icons",
+        ]}
+        notables={["Responsive layout", "Sass Partials"]}
+        live="https://hollosj.github.io/nordiq-travel"
+        code="https://github.com/HollosJ/nordiq-travel"
       />
       {/* RE-AUDI */}
       <Project
@@ -88,23 +106,6 @@ const Projects = () => {
         ]}
         live="https://hollosj.github.io/the-gallery"
         code="https://github.com/HollosJ/the-gallery"
-      />
-      {/* NORDIQ */}
-      <Project
-        name="Nordiq Travel Agency"
-        preview="https://imgur.com/D1klLEF.jpg"
-        fullimg="https://i.imgur.com/NPTJDzb.png"
-        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
-        tech={[
-          "HTML",
-          "Sass/SCSS",
-          "JavaScript",
-          "Gulp.js",
-          "FontAwesome Icons",
-        ]}
-        notables={["Responsive layout", "Sass Partials"]}
-        live="https://hollosj.github.io/nordiq-travel-agency/"
-        code="https://github.com/HollosJ/nordiq-travel-agency"
       />
       {/* WEATHER APP */}
       <Project
