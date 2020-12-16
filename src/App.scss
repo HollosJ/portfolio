@@ -155,12 +155,11 @@ html {
 
       a {
         text-decoration: none;
-        margin: 0.2em;
+        margin: 0 0.2em;
 
         &:hover .faIcon,
         &:hover #PSLogo {
-          transform: translateY(-1em);
-          transform: rotate(365deg) scale(1.2);
+          transform: translateY(-0.5rem);
         }
       }
 
@@ -176,8 +175,8 @@ html {
         cursor: pointer;
         .faIcon,
         #PSLogo {
-          transition: all 0.5s ease;
-          margin-bottom: 0.1em;
+          transition: all 0.2s ease;
+          margin-bottom: 0.1rem;
         }
 
         .faIcon {
