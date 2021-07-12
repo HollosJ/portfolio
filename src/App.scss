@@ -254,6 +254,7 @@ html {
   background-color: rgba(0, 0, 0, 0.75);
   animation-name: fade-in;
   animation-duration: 0.3s;
+  cursor: pointer;
 
   //CLOSE-MODAL BUTTON
   .details-close {
@@ -280,7 +281,7 @@ html {
     max-width: 90vw;
     max-height: 95vh;
     overflow-y: scroll;
-
+    cursor: default;
     background-color: $white;
     color: $darkblue;
     box-shadow: $shadow-smooth;
