@@ -40,6 +40,17 @@ html {
   color: $white;
 }
 
+//Darkmode toggle switch
+.darkmode-toggle {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  z-index: 2;
+  font-size: 2rem;
+  color: $white;
+  cursor: pointer;
+}
+
 .Header {
   width: 100%;
   margin-top: 2rem;
@@ -504,6 +515,11 @@ html {
 //IF DARK MODE ENABLED...
 .darkmode {
   background: $darkmode_black;
+
+  //Reduce toggle opacity
+  .darkmode-toggle {
+    opacity: 0.25;
+  }
 
   //Make gradient darker
   .Top,
