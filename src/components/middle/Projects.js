@@ -4,16 +4,56 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div className="Projects">
-      {/* WAR CARDS */}
+      {/* NORDIQ */}
       <Project
-        name="War Cards"
-        preview="https://i.imgur.com/73cgMId.png"
-        fullimg="https://i.imgur.com/xpOsjY7.png"
-        desc="War Cards is a site where the user can find short bullet-pointed key events from history, for example WW1 and WW2, as well as the Cold War."
-        tech={["HTML", "SCSS", "ReactJS", "React Router", "JavaScript"]}
-        notables={["Responsive", "Card slider", "React Routing", "Custom data"]}
-        live="https://hollosj.github.io/war-cards"
-        code="https://github.com/HollosJ/war-cards/tree/master"
+        name="Nordiq Travel Agency"
+        preview="https://i.imgur.com/cxAYgQO.png"
+        fullimg="https://i.imgur.com/6SSUrpR.png"
+        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "JavaScript",
+          "Gulp.js",
+          "FontAwesome Icons",
+        ]}
+        notables={["Responsive layout", "Sass Partials"]}
+        live="https://hollosj.github.io/nordiq-travel"
+        code="https://github.com/HollosJ/nordiq-travel"
+      />
+      {/* PORTFOLIO */}
+      <Project
+        name="Portfolio"
+        preview="https://i.imgur.com/BsEY4ke.png"
+        fullimg="https://i.imgur.com/SBs7cjM.png"
+        desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data you're currently reading as props."
+        tech={[
+          "HTML",
+          "Sass/SCSS",
+          "ReactJS",
+          "React Tilt",
+          "JavaScript",
+          "Formspree backend",
+        ]}
+        notables={["Dark mode","Responsive layout", "React Tilt JS"]}
+        live="#"
+        code="https://github.com/HollosJ/portfolio/tree/master/src"
+      />
+      {/* RE-AUDI */}
+      <Project
+        name="Re-Audi | Audi UK Clone"
+        preview="https://imgur.com/fXJHD26.jpg"
+        fullimg="https://i.imgur.com/mDpUaPE.png"
+        desc="Re-Audi is a clone of the Audi UK website. Since this was a clone, I was able to work from the original design of the site, following the same features such as hover effects, side-menu, button animations etc."
+        tech={["HTML", "Sass/SCSS", "ReactJS", "JavaScript"]}
+        notables={[
+          "Responsive layout",
+          "Custom CSS Grid",
+          "Sass Partials",
+          "Website Clone",
+        ]}
+        live="https://hollosj.github.io/re-audi/"
+        code="https://github.com/HollosJ/re-audi/tree/master/src"
       />
       {/* REACT COUNTRIES */}
       <Project
@@ -33,57 +73,17 @@ const Projects = () => {
         live="https://hollosj.github.io/react-countries/"
         code="https://github.com/HollosJ/react-countries/tree/master"
       />
-      {/* NORDIQ */}
-      <Project
-        name="Nordiq Travel Agency"
-        preview="https://i.imgur.com/cxAYgQO.png"
-        fullimg="https://i.imgur.com/6SSUrpR.png"
-        desc="Nordiq is a site based on a 'fake' travel agency. This was used an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build."
-        tech={[
-          "HTML",
-          "Sass/SCSS",
-          "JavaScript",
-          "Gulp.js",
-          "FontAwesome Icons",
-        ]}
-        notables={["Responsive layout", "Sass Partials"]}
-        live="https://hollosj.github.io/nordiq-travel"
-        code="https://github.com/HollosJ/nordiq-travel"
-      />
-      {/* RE-AUDI */}
-      <Project
-        name="Re-Audi | Audi UK Clone"
-        preview="https://imgur.com/fXJHD26.jpg"
-        fullimg="https://i.imgur.com/mDpUaPE.png"
-        desc="Re-Audi is a clone of the Audi UK website. Since this was a clone, I was able to work from the original design of the site, following the same features such as hover effects, side-menu, button animations etc."
-        tech={["HTML", "Sass/SCSS", "ReactJS", "JavaScript"]}
-        notables={[
-          "Responsive layout",
-          "Custom CSS Grid",
-          "Sass Partials",
-          "Website Clone",
-        ]}
-        live="https://hollosj.github.io/re-audi/"
-        code="https://github.com/HollosJ/re-audi/tree/master/src"
-      />
-      {/* PORTFOLIO */}
-      <Project
-        name="Portfolio"
-        preview="https://i.imgur.com/BsEY4ke.png"
-        fullimg="https://i.imgur.com/SBs7cjM.png"
-        desc="Building my portfolio in React was a very useful choice as it enabled me to pass all the project data you're currently reading as props."
-        tech={[
-          "HTML",
-          "Sass/SCSS",
-          "ReactJS",
-          "React Tilt",
-          "JavaScript",
-          "Formspree backend",
-        ]}
-        notables={["Responsive layout", "React Tilt JS"]}
-        live="#"
-        code="https://github.com/HollosJ/portfolio/tree/master/src"
-      />
+        {/* WAR CARDS */}
+        <Project
+          name="War Cards"
+          preview="https://i.imgur.com/73cgMId.png"
+          fullimg="https://i.imgur.com/xpOsjY7.png"
+          desc="War Cards is a site where the user can find short bullet-pointed key events from history, for example WW1 and WW2, as well as the Cold War."
+          tech={["HTML", "SCSS", "ReactJS", "React Router", "JavaScript"]}
+          notables={["Responsive", "Card slider", "React Routing", "Custom data"]}
+          live="https://hollosj.github.io/war-cards"
+          code="https://github.com/HollosJ/war-cards/tree/master"
+        />
       {/* THE GALLERY */}
       <Project
         name="theGallery"
