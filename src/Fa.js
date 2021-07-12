@@ -10,10 +10,10 @@ import {
   faGulp,
   faLinkedin,
   faGithubSquare,
-  faCodepen,
+  faCodepen
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faFile, faAt } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faAt, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
   faHtml5,
@@ -27,5 +27,6 @@ library.add(
   faGithubSquare,
   faCodepen,
   faFile,
-  faAt
+  faAt,
+  faMoon
 );

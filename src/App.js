@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.scss";
 import "./Fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import Top from "./components/top/Top";
 import Middle from "./components/middle/Middle";
@@ -9,8 +11,17 @@ import Bottom from "./components/bottom/Bottom";
 import Footer from "./components/Footer"
 
 function App() {
+
+  const [darkMode, setDarkMode] = useState(false);
+
+
+  const toggleDarkmode = () => {
+    setDarkMode(!darkMode);
+  }
+
   return (
-    <div className="App">
+    <div className={darkMode ? "App darkmode" : "App"}>
+      <FontAwesomeIcon className="faIcon darkmode-toggle" icon={["fas", "moon"]} onClick={toggleDarkmode}/>
       <Top />
       <About />
       <Middle />
