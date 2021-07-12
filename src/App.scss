@@ -12,6 +12,9 @@ $purple: #673ab7;
 $pink: #e43f5a;
 $white: #eeeeee;
 
+//DARKMODE COLORS
+$darkmode_black: #1c1e21;
+
 $shadow-smooth: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
   0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -494,6 +497,51 @@ html {
   }
   .shape-fill {
     fill: #eeeeee;
+  }
+}
+
+//IF DARK MODE ENABLED...
+.darkmode {
+  background: $darkmode_black;
+
+  //Make gradient darker
+  .Top,
+  .Bottom {
+    background: linear-gradient(153deg, #162447, #241839);
+    background-size: 400% 400%;
+    -webkit-animation: animate-bg 30s ease infinite;
+    -moz-animation: animate-bg 30s ease infinite;
+    animation: animate-bg 30s ease infinite;
+  }
+
+  .Header,
+  .instruction,
+  .prev-title {
+    color: $white;
+  }
+  .About,
+  .Middle,
+  .Project .ProjectDetails .details-wrapper {
+    background: $darkmode_black;
+    color: $white;
+  }
+
+  //Custom shape dividers
+  .custom-shape-divider-bottom-1606851356 .shape-fill {
+    fill: $darkmode_black;
+  }
+
+  //Contact area
+  .Contact {
+    .contact-links,
+    .contact-form input,
+    .contact-form textarea {
+      background: $darkmode_black;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      color: $white;
+    }
   }
 }
 
