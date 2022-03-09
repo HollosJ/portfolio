@@ -8,7 +8,7 @@ import './App.css';
 
 function Portfolio() {
   return (
-    <div className="relative overflow-hidden font-mono bg-jrey debug-screens selection:bg-jurple selection:text-white">
+    <div className="relative overflow-hidden font-mono bg-jrey selection:bg-jurple selection:text-white">
       <Intro />
       <hr className="max-w-md mx-auto md:max-w-4xl" />
       <About />
