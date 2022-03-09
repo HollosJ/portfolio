@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbf50a7d.css",
+    "main.js": "/static/js/main.b5900b5c.js",
+    "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
+    "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
+    "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
+    "index.html": "/index.html",
+    "main.dbf50a7d.css.map": "/static/css/main.dbf50a7d.css.map",
+    "main.b5900b5c.js.map": "/static/js/main.b5900b5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbf50a7d.css",
+    "static/js/main.b5900b5c.js"
+  ]
+}
