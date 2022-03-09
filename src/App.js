@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import Intro from './components/intro';
+import About from './components/about';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import Contact from './components/contact';
+import Footer from './components/footer';
 import './App.css';
 
-function App() {
+function Portfolio() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative overflow-hidden font-mono bg-jrey debug-screens selection:bg-jurple selection:text-white">
+      <Intro />
+      <hr className="max-w-md mx-auto md:max-w-4xl" />
+      <About />
+      <Skills />
+      <hr className="max-w-md mx-auto md:max-w-4xl" />
+      <Projects />
+      <hr className="max-w-md mx-auto md:max-w-4xl" />
+      <Contact />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default Portfolio;

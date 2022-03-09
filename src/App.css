@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap');
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@tailwind components;
+@tailwind utilities;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  @apply text-2xl font-black md:text-3xl;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header--white {
+  @apply text-jrey;
 }
-
-.App-link {
-  color: #61dafb;
+.icon {
+  @apply transition-all md:group-hover:text-jurple group-hover:text-black md:group-hover:-translate-y-1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+  @apply px-2 m-1 text-white bg-black rounded-sm;
+}
+.input-field {
+  @apply px-4 py-2 mt-2 transition rounded-md focus:border-black focus:shadow-xl;
 }
