@@ -37,7 +37,7 @@ const Project = ({ project, tabIndex }) => {
           <img
             className="relative transition rounded-sm md:group-hover:-rotate-2 md:group-hover:scale-101 md:grayscale group-hover:grayscale-0 object-fit z-1"
             src={project.preview}
-            alt=""
+            alt="Project Preview"
           />
         </div>
         {/* right */}
