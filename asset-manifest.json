@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbf50a7d.css",
-    "main.js": "/static/js/main.b5900b5c.js",
+    "main.css": "/static/css/main.3ad26f77.css",
+    "main.js": "/static/js/main.8a51aee5.js",
     "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
     "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
     "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
+    "static/media/portfolio-prev.png": "/static/media/portfolio-prev.2f212b8786e1ecadad8d.png",
     "index.html": "/index.html",
-    "main.dbf50a7d.css.map": "/static/css/main.dbf50a7d.css.map",
-    "main.b5900b5c.js.map": "/static/js/main.b5900b5c.js.map"
+    "main.3ad26f77.css.map": "/static/css/main.3ad26f77.css.map",
+    "main.8a51aee5.js.map": "/static/js/main.8a51aee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf50a7d.css",
-    "static/js/main.b5900b5c.js"
+    "static/css/main.3ad26f77.css",
+    "static/js/main.8a51aee5.js"
   ]
 }
