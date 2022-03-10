@@ -3,6 +3,7 @@ import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/skills';
 import Contact from './components/contact';
+import Links from './components/links';
 import Footer from './components/footer';
 import './App.css';
 
@@ -17,6 +18,7 @@ function Portfolio() {
       <Projects />
       <hr className="max-w-md mx-auto md:max-w-4xl" />
       <Contact />
+      <Links />
       <Footer />
     </div>
   );
