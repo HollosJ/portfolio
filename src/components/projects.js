@@ -3,6 +3,7 @@ import Project from './project';
 import prevTheStore from '../img/thestore-prev.png';
 import prevNordiq from '../img/nordiq-prev.png';
 import prevCountries from '../img/countries-prev.png';
+import prevPortfolio from '../img/portfolio-prev.png';
 
 const myProjects = [
   {
@@ -13,7 +14,10 @@ const myProjects = [
     tech: ['HTML', 'SCSS', 'React', 'Fake Store API', 'Local Storage'],
     features: ['Product filtering', 'Routing', 'Quick + Responsive'],
     preview: prevTheStore,
-    links: { code: '', live: '' },
+    links: {
+      code: 'https://github.com/HollosJ/the-store/tree/master',
+      live: 'https://hollosj.github.io/the-store/',
+    },
     inProgress: true,
   },
   {
@@ -24,7 +28,10 @@ const myProjects = [
     tech: ['HTML', 'SCSS', 'JavaScript', 'Gulp.js'],
     features: ['Sass Partials', 'Responsive', 'Minified'],
     preview: prevNordiq,
-    links: { code: '', live: '' },
+    links: {
+      code: 'https://github.com/HollosJ/nordiq-travel',
+      live: 'https://hollosj.github.io/nordiq-travel/',
+    },
     inProgress: false,
   },
   {
@@ -35,7 +42,10 @@ const myProjects = [
     tech: ['HTML', 'CSS', 'ReactJS', 'REST API'],
     features: ['RESTCountries API', 'Live search', 'Responsive'],
     preview: prevCountries,
-    links: { code: '', live: '' },
+    links: {
+      code: 'https://github.com/HollosJ/react-countries/tree/master',
+      live: 'https://hollosj.github.io/react-countries/',
+    },
     inProgress: false,
   },
   {
@@ -45,8 +55,11 @@ const myProjects = [
       'This is the portfolio you are currently viewing. It is a single-page application built using React and Tailwind CSS, utilizing Framer Motion for the animated modal.',
     tech: ['HTML', 'Tailwind CSS', 'ReactJS', 'Framer Motion'],
     features: ['Animated Modal', 'Responsive'],
-    preview: prevCountries,
-    links: { code: '', live: '' },
+    preview: prevPortfolio,
+    links: {
+      code: 'https://github.com/HollosJ/portfolio/tree/master',
+      live: '#',
+    },
     inProgress: true,
   },
 ];
