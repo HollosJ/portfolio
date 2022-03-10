@@ -41,15 +41,13 @@ const Project = ({ project, tabIndex }) => {
           />
         </div>
         {/* right */}
-        <div className="flex flex-col items-start justify-between w-7/12 pb-1 pl-2 pr-1">
+        <div className="flex flex-col items-start justify-between w-7/12 p-2">
           {/* text */}
-          <div>
+          <div className="">
             <h3 className="font-black md:text-sm lg:text-base">
               {project.name}
             </h3>
-            <p className="text-ellipsis md:text-sm lg:text-base">
-              {project.caption}
-            </p>
+            <p className="text-sm sm:text-base">{project.caption}</p>
           </div>
           {/* button */}
           <button
