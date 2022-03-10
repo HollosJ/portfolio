@@ -4,8 +4,6 @@ module.exports = {
     extend: {
       colors: {
         jurple: '#7000ff',
-        jink: '#e43f5a',
-        javy: '#192446',
         jrey: '#eee',
       },
       scale: { 101: '101%' },
