@@ -37,7 +37,7 @@ const Project = ({ project, tabIndex }) => {
           <img
             className="relative transition rounded-sm md:group-hover:-rotate-2 md:group-hover:scale-101 md:grayscale group-hover:grayscale-0 object-fit z-1"
             src={project.preview}
-            alt="Project Preview"
+            alt={`${project.name} preview`}
           />
         </div>
         {/* right */}
@@ -47,7 +47,9 @@ const Project = ({ project, tabIndex }) => {
             <h3 className="font-black md:text-sm lg:text-base">
               {project.name}
             </h3>
-            <p className="md:text-sm lg:text-base">{project.caption}</p>
+            <p className="text-ellipsis md:text-sm lg:text-base">
+              {project.caption}
+            </p>
           </div>
           {/* button */}
           <button

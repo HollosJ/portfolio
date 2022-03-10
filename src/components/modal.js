@@ -41,7 +41,7 @@ const modal = ({ handleClose, project }) => {
         <img
           className="w-40 mx-auto mt-4"
           src={project.preview}
-          alt="Modal Project Preview"
+          alt={`${project.name} modal preview`}
         />
 
         {/* text */}
