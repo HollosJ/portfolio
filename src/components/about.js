@@ -7,17 +7,13 @@ const About = () => {
       <div className="md:text-xl">
         <p>
           Hello! &#x1F44B; I'm James - a front-end developer based in &#x1F4CD;
-          North-West England.
+          North-West England - who loves working with the latest technologies to
+          create quick and responsive web-applications.
         </p>
         <p className="mt-4">
           &#x1F4AA; I have a firm grasp of HTML, CSS and JavaScript, as well as
           good knowledge of various frameworks, libraries and tools. Coding has
           been a hobby of mine for around 7 years.
-        </p>
-        <p className="mt-4">
-          &#x1F4BB; I am a highly motivated and results-driven individual always
-          looking to work with the latest technologies to create fast and
-          responsive web applications.
         </p>
         <p className="mt-4 mb-8">
           &#x1F4BC; I'm currently working remotely as a developer for a mortgage
