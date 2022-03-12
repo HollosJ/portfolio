@@ -30,18 +30,18 @@ const Project = ({ project, tabIndex }) => {
       {/* PREVIEW */}
       <div
         tabIndex={tabIndex}
-        className="grid grid-cols-2 p-1 text-white transition bg-black rounded-md lg:hover:scale-101 group md:hover:shadow-xl"
+        className="grid grid-cols-2 overflow-hidden text-white transition bg-black rounded-md lg:hover:scale-101 group md:hover:shadow-xl"
       >
         {/* left */}
-        <div className="h-full ">
+        <div className="h-full overflow-hidden">
           <img
-            className="relative transition rounded-sm md:group-hover:-rotate-2 md:group-hover:scale-101 md:grayscale group-hover:grayscale-0 z-1"
+            className="relative transition md:group-hover:-rotate-2 md:group-hover:scale-105 md:grayscale group-hover:grayscale-0 z-1"
             src={project.preview}
             alt={`${project.name} preview`}
           />
         </div>
         {/* right */}
-        <div className="flex flex-col justify-between px-2 py-1">
+        <div className="flex flex-col justify-between p-2">
           {/* text */}
           <div className="">
             <h3 className="text-sm font-black leading-4 sm:text-lg md:text-base lg:text-lg">
