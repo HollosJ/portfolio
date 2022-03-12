@@ -21,6 +21,7 @@ const contact = () => {
             className="input-field"
             type="text"
             name="name"
+            id="name"
             placeholder="John Doe"
             required
           ></input>
@@ -34,10 +35,12 @@ const contact = () => {
             className="input-field"
             type="email"
             name="email"
+            id="email"
             placeholder="john.doe@email.com"
             required
           ></input>
         </div>
+
         <div className="flex flex-col sm:col-span-2">
           <label className="font-bold" htmlFor="message">
             Message:
@@ -49,6 +52,7 @@ const contact = () => {
             cols="30"
             rows="5"
             placeholder="Hi James, I'm interested in your work and..."
+            required
           ></textarea>
         </div>
 
