@@ -30,28 +30,30 @@ const Project = ({ project, tabIndex }) => {
       {/* PREVIEW */}
       <div
         tabIndex={tabIndex}
-        className="flex p-1 text-white transition bg-black rounded-md lg:hover:scale-101 group md:hover:shadow-xl"
+        className="grid grid-cols-2 p-1 text-white transition bg-black rounded-md lg:hover:scale-101 group md:hover:shadow-xl"
       >
         {/* left */}
-        <div className="w-5/12 h-full ">
+        <div className="h-full ">
           <img
-            className="relative transition rounded-sm md:group-hover:-rotate-2 md:group-hover:scale-101 md:grayscale group-hover:grayscale-0 object-fit z-1"
+            className="relative transition rounded-sm md:group-hover:-rotate-2 md:group-hover:scale-101 md:grayscale group-hover:grayscale-0 z-1"
             src={project.preview}
             alt={`${project.name} preview`}
           />
         </div>
         {/* right */}
-        <div className="flex flex-col items-start justify-between w-7/12 p-2">
+        <div className="flex flex-col justify-between px-2 py-1">
           {/* text */}
           <div className="">
-            <h3 className="font-black md:text-sm lg:text-base">
+            <h3 className="text-sm font-black leading-4 sm:text-lg md:text-base lg:text-lg">
               {project.name}
             </h3>
-            <p className="text-sm sm:text-base">{project.caption}</p>
+            <p className="mt-1 text-xs sm:text-base md:text-sm lg:text-base">
+              {project.caption}
+            </p>
           </div>
           {/* button */}
           <button
-            className="w-full px-2 py-1 transition-all rounded-sm focus:outline-jurple hover:outline-jurple outline md:text-sm lg:text-base outline-white outline-2"
+            className="self-end w-full px-2 py-1 transition-all rounded-sm focus:outline-jurple hover:outline-jurple outline md:text-sm lg:text-base outline-white outline-2"
             onClick={openModal}
           >
             See more
