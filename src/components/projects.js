@@ -22,7 +22,7 @@ const myProjects = [
   },
   {
     name: 'Nordiq Travel Agency',
-    caption: 'Landing page for a mock travel agency',
+    caption: 'Landing page for mock travel agency',
     description:
       'Nordiq is a mock travel agency I created as an introduction to Sass Partials, as well as the Gulp workflow - minifying images, code and compiling Sass into a production-ready build.',
     tech: ['HTML', 'SCSS', 'JavaScript', 'Gulp.js'],
@@ -36,7 +36,7 @@ const myProjects = [
   },
   {
     name: 'React Countries',
-    caption: 'Single-page application pulling data from RESTCountries API',
+    caption: 'Country Data application',
     description:
       'React Countries is an app built using the RESTCountries API. It allows the user to search for a country, and instantly get data belonging to that specific country, such as currency, language, capital and flag. This project was based on a project I had previously build in Vanilla JS; I used this as a project to get familiar with React',
     tech: ['HTML', 'CSS', 'ReactJS', 'REST API'],
