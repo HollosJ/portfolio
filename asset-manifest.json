@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0418d37a.css",
-    "main.js": "/static/js/main.4564b358.js",
+    "main.css": "/static/css/main.4a85165b.css",
+    "main.js": "/static/js/main.c1e853b1.js",
+    "static/js/787.d16e9580.chunk.js": "/static/js/787.d16e9580.chunk.js",
     "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
     "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
     "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
     "static/media/portfolio-prev.png": "/static/media/portfolio-prev.2f212b8786e1ecadad8d.png",
     "index.html": "/index.html",
-    "main.0418d37a.css.map": "/static/css/main.0418d37a.css.map",
-    "main.4564b358.js.map": "/static/js/main.4564b358.js.map"
+    "main.4a85165b.css.map": "/static/css/main.4a85165b.css.map",
+    "main.c1e853b1.js.map": "/static/js/main.c1e853b1.js.map",
+    "787.d16e9580.chunk.js.map": "/static/js/787.d16e9580.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0418d37a.css",
-    "static/js/main.4564b358.js"
+    "static/css/main.4a85165b.css",
+    "static/js/main.c1e853b1.js"
   ]
 }
