@@ -15,15 +15,17 @@ function Portfolio() {
       } relative overflow-hidden font-mono bg-jrey selection:bg-jurple selection:text-white`}
     >
       <Intro />
-      <hr className="max-w-md mx-auto md:max-w-4xl" />
-      <About />
-      <Skills />
-      <hr className="max-w-md mx-auto md:max-w-4xl" />
-      <Projects />
-      <hr className="max-w-md mx-auto md:max-w-4xl" />
-      <Contact />
-      <Links />
-      <Footer />
+      <div className="relative bg-jrey">
+        <hr className="max-w-md mx-auto md:max-w-4xl" />
+        <About />
+        <Skills />
+        <hr className="max-w-md mx-auto md:max-w-4xl" />
+        <Projects />
+        <hr className="max-w-md mx-auto md:max-w-4xl" />
+        <Contact />
+        <Links />
+        <Footer />
+      </div>
     </div>
   );
 }
