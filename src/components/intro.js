@@ -6,6 +6,7 @@ const Intro = () => {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen max-h-screen">
       <Particles
+        className="hidden md:block"
         id="tsparticles"
         options={{
           background: {
@@ -59,9 +60,8 @@ const Intro = () => {
             move: {
               direction: 'none',
               enable: true,
-              outMode: 'bounce',
               random: false,
-              speed: 6,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -85,7 +85,6 @@ const Intro = () => {
           detectRetina: true,
         }}
       />
-      );
       <div className="relative flex flex-col items-center group">
         <h1 className="relative text-3xl font-black text-center md:text-5xl">
           James Hollos
