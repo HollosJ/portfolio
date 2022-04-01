@@ -53,7 +53,7 @@ const myProjects = [
     caption: "The portfolio you're currently viewing",
     description:
       'This is the portfolio you are currently viewing. It is a single-page application built using React and Tailwind CSS, utilizing Framer Motion for the animated modal.',
-    tech: ['HTML', 'Tailwind CSS', 'ReactJS', 'Framer Motion'],
+    tech: ['HTML', 'Tailwind CSS', 'ReactJS', 'Framer Motion', 'Particles.js'],
     features: ['Animated Modal', 'Responsive'],
     preview: prevPortfolio,
     links: {
