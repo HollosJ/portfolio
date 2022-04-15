@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.af9b8b67.css",
-    "main.js": "/static/js/main.f56e4e34.js",
+    "main.js": "/static/js/main.346e4ff7.js",
     "static/js/787.d16e9580.chunk.js": "/static/js/787.d16e9580.chunk.js",
     "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
     "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
     "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
+    "static/media/thestore-prev.webp": "/static/media/thestore-prev.09317248d41189154ece.webp",
+    "static/media/countries-prev.webp": "/static/media/countries-prev.4c497f160cbf07e637f8.webp",
+    "static/media/nordiq-prev.webp": "/static/media/nordiq-prev.01a2fb70acfa6616f3ba.webp",
     "static/media/portfolio-prev.png": "/static/media/portfolio-prev.2f212b8786e1ecadad8d.png",
+    "static/media/portfolio-prev.webp": "/static/media/portfolio-prev.6df5949e087c52e5b4f0.webp",
     "index.html": "/index.html",
     "main.af9b8b67.css.map": "/static/css/main.af9b8b67.css.map",
-    "main.f56e4e34.js.map": "/static/js/main.f56e4e34.js.map",
+    "main.346e4ff7.js.map": "/static/js/main.346e4ff7.js.map",
     "787.d16e9580.chunk.js.map": "/static/js/787.d16e9580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af9b8b67.css",
-    "static/js/main.f56e4e34.js"
+    "static/js/main.346e4ff7.js"
   ]
 }
