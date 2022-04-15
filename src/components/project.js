@@ -38,6 +38,8 @@ const Project = ({ project, tabIndex }) => {
             <source srcSet={project.previews.webp} type="image/webp"></source>
             <source srcSet={project.previews.png} type="image/png"></source>
             <img
+              width="200px"
+              height="200px"
               className="relative transition md:group-hover:-rotate-2 md:group-hover:scale-105 md:grayscale group-hover:grayscale-0 z-1"
               src={project.previews.png}
               alt={project.name}

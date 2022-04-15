@@ -42,6 +42,8 @@ const modal = ({ handleClose, project }) => {
           <source srcSet={project.previews.webp} type="image/webp"></source>
           <source srcSet={project.previews.png} type="image/png"></source>
           <img
+            width="200px"
+            height="200px"
             className="w-40 mx-auto mt-4"
             src={project.previews.png}
             alt={project.name}
