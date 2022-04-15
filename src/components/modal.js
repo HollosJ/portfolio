@@ -38,11 +38,15 @@ const modal = ({ handleClose, project }) => {
         </h3>
 
         {/* img */}
-        <img
-          className="w-40 mx-auto mt-4"
-          src={project.preview}
-          alt={`${project.name} modal preview`}
-        />
+        <picture>
+          <source srcSet={project.previews.webp} type="image/webp"></source>
+          <source srcSet={project.previews.png} type="image/png"></source>
+          <img
+            className="w-40 mx-auto mt-4"
+            src={project.previews.png}
+            alt={project.name}
+          />
+        </picture>
 
         {/* text */}
         <div className="px-4 mt-4 text-sm md:text-lg">

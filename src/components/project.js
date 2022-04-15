@@ -5,6 +5,8 @@ import Modal from './modal';
 const Project = ({ project, tabIndex }) => {
   const [open, setOpen] = useState(false);
 
+  console.log(project.previews);
+
   const openModal = () => {
     setOpen(true);
     document.body.style.overflow = 'hidden';
@@ -34,11 +36,15 @@ const Project = ({ project, tabIndex }) => {
       >
         {/* left */}
         <div className="h-full overflow-hidden">
-          <img
-            className="relative transition md:group-hover:-rotate-2 md:group-hover:scale-105 md:grayscale group-hover:grayscale-0 z-1"
-            src={project.preview}
-            alt={`${project.name} preview`}
-          />
+          <picture>
+            <source srcSet={project.previews.webp} type="image/webp"></source>
+            <source srcSet={project.previews.png} type="image/png"></source>
+            <img
+              className="relative transition md:group-hover:-rotate-2 md:group-hover:scale-105 md:grayscale group-hover:grayscale-0 z-1"
+              src={project.previews.png}
+              alt={project.name}
+            />
+          </picture>
         </div>
         {/* right */}
         <div className="flex flex-col justify-between p-2">
