@@ -5,8 +5,6 @@ import Modal from './modal';
 const Project = ({ project, tabIndex }) => {
   const [open, setOpen] = useState(false);
 
-  console.log(project.previews);
-
   const openModal = () => {
     setOpen(true);
     document.body.style.overflow = 'hidden';
