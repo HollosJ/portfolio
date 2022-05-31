@@ -91,6 +91,7 @@ const modal = ({ handleClose, project }) => {
               className="p-2 transition border-2 border-black rounded-md focus:bg-black focus:text-white md:hover:bg-black md:hover:text-white"
               href={project.links.live}
               target="_blank"
+              rel="noreferrer"
             >
               Live Preview
             </a>
@@ -98,6 +99,7 @@ const modal = ({ handleClose, project }) => {
               className="p-2 mt-2 transition border-2 border-black rounded-md focus:bg-black focus:text-white md:hover:bg-black md:hover:text-white"
               href={project.links.code}
               target="_blank"
+              rel="noreferrer"
             >
               My Code
             </a>
