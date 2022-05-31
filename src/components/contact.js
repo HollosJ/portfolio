@@ -1,10 +1,7 @@
-import React from 'react';
-import { FiSend } from 'react-icons/fi';
+import React from "react";
+import { FiSend } from "react-icons/fi";
 
 const contact = () => {
-  const mySubmit = (e) => {
-    console.log(e);
-  };
   return (
     <div className="container max-w-4xl px-2 mx-auto md:px-4">
       <h1 className="my-4 md:my-8 header">Contact</h1>
