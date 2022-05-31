@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaReact, FaGulp, FaSass } from 'react-icons/fa';
+import { FaReact, FaGulp } from 'react-icons/fa';
 import {
   SiJavascript,
   SiSass,
   SiCss3,
   SiHtml5,
   SiTailwindcss,
+  SiAlpinedotjs,
 } from 'react-icons/si';
 const mySkills = [
   {
@@ -29,6 +30,10 @@ const mySkills = [
     icon: <SiTailwindcss className="icon" />,
   },
   {
+    name: 'Alpine.js',
+    icon: <SiAlpinedotjs className="icon" />,
+  },
+  {
     name: 'React',
     icon: <FaReact className="icon" />,
   },
@@ -44,12 +49,12 @@ const Skills = () => {
       <h6 className="font-black text-center text-jray">
         My current technical skills:
       </h6>
-      <div className="container flex flex-wrap items-center mx-auto mt-4 justify-evenly">
+      <div className="container flex flex-wrap items-center justify-center gap-4 mx-auto mt-4">
         {mySkills.map((skill, key) => {
           return (
             <div
               key={key}
-              className="relative flex flex-col items-center mx-6 mt-4 text-4xl group display-inline"
+              className="relative flex flex-col items-center text-4xl group display-inline"
             >
               {/* ICON */}
               {skill.icon}
