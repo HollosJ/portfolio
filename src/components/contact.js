@@ -1,5 +1,5 @@
-import React from "react";
-import { FiSend } from "react-icons/fi";
+import React from 'react';
+import { FiSend } from 'react-icons/fi';
 
 const contact = () => {
   return (
