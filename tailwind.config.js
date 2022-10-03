@@ -3,8 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        jurple: '#7000ff',
+        jurple: '#7700ff',
+        'jurple-dark': '#5800bd',
         jrey: '#eee',
+        'light-grey': '#d3d3d3',
       },
       scale: { 101: '101%' },
     },

@@ -3,52 +3,39 @@ import { BsLinkedin } from 'react-icons/bs';
 import { IoMdDocument, IoLogoCodepen, IoLogoGithub } from 'react-icons/io';
 
 const links = () => {
-  const styles = {
-    link: 'flex flex-col items-center p-2 text-2xl transition rounded-sm focus:text-jurple hover:text-jurple hover:outline-jurple hover:outline hover:outline-2 focus:outline-jurple focus:outline focus:outline-2',
-    icon: 'mt-2 text-xs text-center md:text-base',
-  };
-
   return (
-    <div className="p-4 mx-auto mt-8 bg-black">
+    <>
       <div className="container max-w-4xl mx-auto">
-        <ul className="flex flex-wrap text-4xl text-white justify-evenly">
+        <ul className="grid grid-cols-2 gap-4 text-white md:grid-cols-4 ">
           {/* LinkedIn */}
           <a
-            className={styles.link}
+            className="link"
             href="https://www.linkedin.com/in/jameshollos/"
             target="_blank"
           >
             <BsLinkedin />
-            <span className={styles.icon}>LinkedIn</span>
+            <span>LinkedIn</span>
           </a>
           {/* GitHub */}
-          <a
-            className={styles.link}
-            href="https://github.com/HollosJ"
-            target="_blank"
-          >
+          <a className="link" href="https://github.com/HollosJ" target="_blank">
             <IoLogoGithub />
-            <span className={styles.icon}>Github</span>
+            <span>Github</span>
           </a>
-          <a
-            className={styles.link}
-            href="https://codepen.io/HollosJ"
-            target="_blank"
-          >
+          <a className="link" href="https://codepen.io/HollosJ" target="_blank">
             <IoLogoCodepen />
-            <span className={styles.icon}>Codepen</span>
+            <span>Codepen</span>
           </a>
           <a
-            className={styles.link}
+            className="link"
             href="https://drive.google.com/file/d/1025ja3ser6s5GgM5G2Btenl25hoAtggZ/view?usp=sharing"
             target="_blank"
           >
             <IoMdDocument />
-            <span className={styles.icon}>CV</span>
+            <span>CV</span>
           </a>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 

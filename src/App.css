@@ -9,17 +9,39 @@ html {
 @tailwind utilities;
 
 .header {
-  @apply text-2xl font-black md:text-3xl;
-}
-.header--white {
-  @apply text-jrey;
+  @apply mb-4 text-2xl font-black text-white md:text-3xl;
 }
 .icon {
-  @apply transition-all md:group-hover:text-jurple group-hover:text-black md:group-hover:-translate-y-1;
+  @apply transition-all md:group-hover:-translate-y-1;
 }
 .label {
-  @apply px-2 m-1 text-white bg-black rounded-sm;
+  @apply px-2 text-sm text-white rounded-sm bg-jurple-dark;
 }
+
+/* Inputs */
 .input-field {
-  @apply px-4 py-2 mt-2 transition rounded-md focus:border-black focus:shadow-xl;
+  @apply grid gap-2;
+}
+.input-field input,
+textarea {
+  @apply p-2 transition-all rounded-md appearance-none focus:outline-jurple;
+}
+.input-field label {
+  @apply font-bold text-white;
+}
+
+/* Buttons */
+.button {
+  @apply px-8 py-2 leading-none transition-all rounded-md;
+}
+.button--outline-white {
+  @apply border-2 border-white focus:outline-2 focus:outline-white hover:bg-white hover:text-black;
+}
+.button--outline-black {
+  @apply text-black border-2 border-black focus:outline-2 focus:outline-white hover:bg-black hover:text-white;
+}
+
+/* Link section at bottom of page */
+.link {
+  @apply flex flex-col items-center p-4 transition-opacity rounded-md hover:opacity-75;
 }

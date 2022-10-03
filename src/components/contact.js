@@ -3,19 +3,16 @@ import { FiSend } from 'react-icons/fi';
 
 const contact = () => {
   return (
-    <div className="container max-w-4xl px-2 mx-auto md:px-4">
-      <h1 className="my-4 md:my-8 header">Contact</h1>
+    <div>
+      <h1 className="header">Contact</h1>
       <form
         method="POST"
         action="https://formsubmit.co/hollosj99@gmail.com"
-        className="grid gap-4 sm:grid-cols-2"
+        className="grid gap-4 md:grid-cols-2"
       >
-        <div className="flex flex-col">
-          <label className="font-bold" htmlFor="name">
-            Full Name:
-          </label>
+        <div className="input-field">
+          <label htmlFor="name">Full Name:</label>
           <input
-            className="input-field"
             type="text"
             name="name"
             id="name"
@@ -24,12 +21,9 @@ const contact = () => {
           ></input>
         </div>
 
-        <div className="flex flex-col">
-          <label className="font-bold" htmlFor="email">
-            Email:
-          </label>
+        <div className="input-field">
+          <label htmlFor="email">Email:</label>
           <input
-            className="input-field"
             type="email"
             name="email"
             id="email"
@@ -38,12 +32,10 @@ const contact = () => {
           ></input>
         </div>
 
-        <div className="flex flex-col sm:col-span-2">
-          <label className="font-bold" htmlFor="message">
-            Message:
-          </label>
+        <div className="md:col-span-2 input-field">
+          <label htmlFor="message">Message:</label>
           <textarea
-            className="w-full resize-y input-field"
+            className="resize-y"
             name="message"
             id="message"
             cols="30"

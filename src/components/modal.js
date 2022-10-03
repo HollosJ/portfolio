@@ -21,7 +21,7 @@ const modal = ({ handleClose, project }) => {
     <Backdrop onClick={handleClose}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="relative flex flex-col w-full h-full px-2 py-4 overflow-y-auto bg-white cursor-default md:h-auto xl:w-5/12 2xl:4/12 lg:w-7/12 md:w-9/12 md:rounded-md"
+        className="relative grid content-start w-full h-full max-w-4xl gap-4 p-4 overflow-y-auto text-center bg-white cursor-default md:h-auto justify-items-center md:rounded-md"
         variants={dropIn}
         initial="hidden"
         animate="visible"
@@ -33,9 +33,7 @@ const modal = ({ handleClose, project }) => {
         >
           <FaRegWindowClose onClick={handleClose} />
         </button>
-        <h3 className="text-base font-black text-center md:text-lg">
-          {project.name}
-        </h3>
+        <h3 className="text-base font-black md:text-lg">{project.name}</h3>
 
         {/* img */}
         <picture>
@@ -44,58 +42,58 @@ const modal = ({ handleClose, project }) => {
           <img
             width="200px"
             height="200px"
-            className="w-40 mx-auto mt-4"
+            className="w-40"
             src={project.previews.png}
             alt={project.name}
           />
         </picture>
 
         {/* text */}
-        <div className="px-4 mt-4 text-sm md:text-lg">
+        <div className="grid gap-4 text-sm md:text-lg">
           {project.inProgress && (
-            <span className="block mb-2 font-black text-center">
+            <span className="block font-black">
               &#x1F6A7; WORK IN PROGRESS &#x1F6A7;
             </span>
           )}
 
           {/* description */}
-          <p className="mx-auto text-sm md:max-w-md md:text-base">
-            {project.description}
-          </p>
+          <p className="text-sm md:text-base">{project.description}</p>
 
           {/* technologies */}
-          <span className="block mt-4 font-black text-center">
-            Technologies used:
-          </span>
-          <ul className="flex flex-wrap justify-center">
-            {project.tech.map((tech, key) => (
-              <li className="label" key={key}>
-                {tech}
-              </li>
-            ))}
-          </ul>
+          <div>
+            <span className="block font-black">Technologies used:</span>
+            <ul className="flex flex-wrap justify-center gap-2">
+              {project.tech.map((tech, key) => (
+                <li className="label" key={key}>
+                  {tech}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* features */}
-          <span className="block mt-4 font-black text-center">Features:</span>
-          <ul className="flex flex-wrap justify-center">
-            {project.features.map((feature, key) => (
-              <li className="label" key={key}>
-                {feature}
-              </li>
-            ))}
-          </ul>
+          <div>
+            <span className="block font-black">Features:</span>
+            <ul className="flex flex-wrap justify-center gap-2">
+              {project.features.map((feature, key) => (
+                <li className="label" key={key}>
+                  {feature}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* buttons */}
-          <div className="flex flex-col mt-4 text-center">
+          <div className="grid gap-2">
             <a
-              className="p-2 transition border-2 border-black rounded-md focus:bg-black focus:text-white md:hover:bg-black md:hover:text-white"
+              className="button button--outline-black"
               href={project.links.live}
               target="_blank"
             >
               Live Preview
             </a>
             <a
-              className="p-2 mt-2 transition border-2 border-black rounded-md focus:bg-black focus:text-white md:hover:bg-black md:hover:text-white"
+              className="button button--outline-black"
               href={project.links.code}
               target="_blank"
             >

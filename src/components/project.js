@@ -30,7 +30,7 @@ const Project = ({ project, tabIndex }) => {
       {/* PREVIEW */}
       <div
         tabIndex={tabIndex}
-        className="grid grid-cols-2 overflow-hidden text-white transition bg-black rounded-md lg:hover:scale-101 group md:hover:shadow-xl"
+        className="flex overflow-hidden text-white transition bg-black rounded-md outline-hidden lg:hover:scale-101 group md:hover:shadow-xl"
       >
         {/* left */}
         <div className="h-full overflow-hidden">
@@ -47,19 +47,19 @@ const Project = ({ project, tabIndex }) => {
           </picture>
         </div>
         {/* right */}
-        <div className="flex flex-col justify-between p-2">
+        <div className="grid flex-1 p-2">
           {/* text */}
-          <div className="">
+          <div className="grid content-start gap-2">
             <h3 className="text-sm font-black leading-4 sm:text-lg md:text-base lg:text-lg">
               {project.name}
             </h3>
-            <p className="mt-1 text-xs sm:text-base md:text-sm lg:text-base">
+            <p className="text-xs sm:text-base md:text-sm lg:text-base">
               {project.caption}
             </p>
           </div>
           {/* button */}
           <button
-            className="self-end w-full px-2 py-1 transition-all rounded-sm focus:outline-jurple hover:outline-jurple outline md:text-sm lg:text-base outline-white outline-2"
+            className="self-end button button--purple button--outline-white"
             onClick={openModal}
           >
             See more
