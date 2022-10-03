@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43b2366d.css",
-    "main.js": "/static/js/main.8a669000.js",
-    "static/js/787.d16e9580.chunk.js": "/static/js/787.d16e9580.chunk.js",
+    "main.css": "/static/css/main.dad95d25.css",
+    "main.js": "/static/js/main.6094cbbf.js",
     "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
     "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
     "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
@@ -11,13 +10,13 @@
     "static/media/nordiq-prev.webp": "/static/media/nordiq-prev.01a2fb70acfa6616f3ba.webp",
     "static/media/portfolio-prev.png": "/static/media/portfolio-prev.2f212b8786e1ecadad8d.png",
     "static/media/portfolio-prev.webp": "/static/media/portfolio-prev.6df5949e087c52e5b4f0.webp",
+    "static/media/waves.svg": "/static/media/waves.feb9089c368e99e20152c218e29a02aa.svg",
     "index.html": "/index.html",
-    "main.43b2366d.css.map": "/static/css/main.43b2366d.css.map",
-    "main.8a669000.js.map": "/static/js/main.8a669000.js.map",
-    "787.d16e9580.chunk.js.map": "/static/js/787.d16e9580.chunk.js.map"
+    "main.dad95d25.css.map": "/static/css/main.dad95d25.css.map",
+    "main.6094cbbf.js.map": "/static/js/main.6094cbbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.43b2366d.css",
-    "static/js/main.8a669000.js"
+    "static/css/main.dad95d25.css",
+    "static/js/main.6094cbbf.js"
   ]
 }
