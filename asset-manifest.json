@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dad95d25.css",
-    "main.js": "/static/js/main.6094cbbf.js",
+    "main.css": "/static/css/main.88445fd5.css",
+    "main.js": "/static/js/main.b6b75973.js",
     "static/media/countries-prev.png": "/static/media/countries-prev.e0a820f1133a49776abe.png",
     "static/media/thestore-prev.png": "/static/media/thestore-prev.00e979a9417f37a23585.png",
     "static/media/nordiq-prev.png": "/static/media/nordiq-prev.3a5f0dd2d72a10c6c5b3.png",
@@ -12,11 +12,11 @@
     "static/media/portfolio-prev.webp": "/static/media/portfolio-prev.6df5949e087c52e5b4f0.webp",
     "static/media/waves.svg": "/static/media/waves.feb9089c368e99e20152c218e29a02aa.svg",
     "index.html": "/index.html",
-    "main.dad95d25.css.map": "/static/css/main.dad95d25.css.map",
-    "main.6094cbbf.js.map": "/static/js/main.6094cbbf.js.map"
+    "main.88445fd5.css.map": "/static/css/main.88445fd5.css.map",
+    "main.b6b75973.js.map": "/static/js/main.b6b75973.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad95d25.css",
-    "static/js/main.6094cbbf.js"
+    "static/css/main.88445fd5.css",
+    "static/js/main.b6b75973.js"
   ]
 }
