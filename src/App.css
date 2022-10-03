@@ -9,7 +9,7 @@ html {
 @tailwind utilities;
 
 .header {
-  @apply mb-4 text-2xl font-black text-white md:text-3xl;
+  @apply text-2xl font-black text-white md:text-3xl;
 }
 .icon {
   @apply transition-all md:group-hover:-translate-y-1;
@@ -43,5 +43,5 @@ textarea {
 
 /* Link section at bottom of page */
 .link {
-  @apply flex flex-col items-center p-4 transition-opacity rounded-md hover:opacity-75;
+  @apply flex flex-col items-center p-4 transition-opacity rounded-md hover:opacity-75 bg-jurple;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="scroll-mt-12">
+    <div id="about" className="grid gap-4 scroll-mt-12">
       <h1 className="header">About me</h1>
       <div className="grid gap-4 md:text-xl text-jrey">
         <p>

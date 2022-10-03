@@ -83,8 +83,9 @@ const myProjects = [
 
 const Projects = () => {
   return (
-    <div className="container mx-auto">
+    <div className="grid gap-4">
       <h1 className="header">Projects</h1>
+
       <div className="grid gap-2 md:gap-6 md:grid-cols-2">
         {myProjects.map((project, key) => {
           return <Project key={key} project={project} tabIndex={key} />;

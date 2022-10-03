@@ -21,18 +21,27 @@ function Portfolio() {
         src={Waves}
         alt="waves-backdrop"
       />
+
       <Intro />
+
       <div className="container relative z-10 grid max-w-4xl gap-8 p-4 mx-auto">
         <hr className="border-jurple" />
+
         <About />
+
         <Skills />
+
         <hr className="border-jurple" />
+
         <Projects />
       </div>
+
       <div className="relative mt-4 bg-jurple-dark">
         <div className="container grid max-w-4xl gap-4 p-4 pt-8 mx-auto">
           <Contact />
+
           <Links />
+
           <Footer />
         </div>
       </div>

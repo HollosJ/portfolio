@@ -3,7 +3,7 @@ import { FiSend } from 'react-icons/fi';
 
 const contact = () => {
   return (
-    <div>
+    <div className="grid gap-4">
       <h1 className="header">Contact</h1>
       <form
         method="POST"
@@ -46,7 +46,7 @@ const contact = () => {
         </div>
 
         <button
-          className="flex items-center justify-center p-2 text-white transition-colors bg-black rounded-md focus:outline-jurple group sm:col-span-2 hover:bg-jurple"
+          className="flex items-center justify-center p-2 text-white transition-colors bg-black rounded-md focus:outline-jurple group md:col-span-2 hover:bg-jurple"
           type="submit"
         >
           Send <FiSend className="ml-1 md:transition-all md:group-hover:ml-2" />

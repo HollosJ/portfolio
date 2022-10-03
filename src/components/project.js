@@ -33,14 +33,12 @@ const Project = ({ project, tabIndex }) => {
         className="flex overflow-hidden text-white transition bg-black rounded-md outline-hidden lg:hover:scale-101 group md:hover:shadow-xl"
       >
         {/* left */}
-        <div className="h-full overflow-hidden">
-          <picture>
+        <div className="overflow-hidden">
+          <picture className="">
             <source srcSet={project.previews.webp} type="image/webp"></source>
             <source srcSet={project.previews.png} type="image/png"></source>
             <img
-              width="200px"
-              height="200px"
-              className="relative transition md:group-hover:-rotate-2 md:group-hover:scale-105 md:grayscale group-hover:grayscale-0 z-1"
+              className="object-cover w-36 sm:w-48 aspect-square"
               src={project.previews.png}
               alt={project.name}
             />
