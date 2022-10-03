@@ -67,7 +67,7 @@ const myProjects = [
     caption: "The portfolio you're currently viewing",
     description:
       'This is the portfolio you are currently viewing. It is a single-page application built using React and Tailwind CSS, utilizing Framer Motion for the animated modal.',
-    tech: ['HTML', 'Tailwind CSS', 'ReactJS', 'Framer Motion', 'Particles.js'],
+    tech: ['HTML', 'Tailwind CSS', 'ReactJS', 'Framer Motion'],
     features: ['Animated Modal', 'Responsive'],
     previews: {
       png: prevPortfolioPNG,
@@ -83,8 +83,8 @@ const myProjects = [
 
 const Projects = () => {
   return (
-    <div className="container max-w-4xl px-2 pb-8 mx-auto md:px-4">
-      <h1 className="my-4 md:my-8 header">Projects</h1>
+    <div className="container mx-auto">
+      <h1 className="header">Projects</h1>
       <div className="grid gap-2 md:gap-6 md:grid-cols-2">
         {myProjects.map((project, key) => {
           return <Project key={key} project={project} tabIndex={key} />;

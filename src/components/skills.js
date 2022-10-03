@@ -45,11 +45,9 @@ const mySkills = [
 
 const Skills = () => {
   return (
-    <div className="container max-w-4xl px-2 pb-8 mx-auto md:px-4">
-      <h6 className="font-black text-center text-jray">
-        My current technical skills:
-      </h6>
-      <div className="container flex flex-wrap items-center justify-center gap-4 mx-auto mt-4">
+    <div className="px-2 mx-auto md:px-4 text-jrey">
+      <h6 className="font-black text-center">My current technical skills:</h6>
+      <div className="container flex flex-wrap items-center justify-center gap-4 mx-auto mt-4 ">
         {mySkills.map((skill, key) => {
           return (
             <div
@@ -60,7 +58,7 @@ const Skills = () => {
               {skill.icon}
 
               {/* LABEL */}
-              <span className="text-xs transition-opacity select-none label">
+              <span className="px-2 m-1 text-xs font-bold text-black transition-opacity rounded-sm select-none bg-jrey label">
                 {skill.name}
               </span>
             </div>
