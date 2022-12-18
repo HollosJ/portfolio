@@ -11,22 +11,44 @@ import prevPortfolioPNG from '../img/portfolio-prev.png';
 import prevPortfolioWEBP from '../img/portfolio-prev.webp';
 
 const myProjects = [
+  // {
+  //   name: 'theStore (WIP)',
+  //   caption: 'E-commerce front-end',
+  //   description:
+  //     'theStore is a mock e-commerce site utilizing local storage, React Routing and the Fake Store API. The user can add and remove items to and from the wishlist and the basket, as well as seeing more detailed descriptions about the individual products, this is all saved for when the user returns to the site.',
+  //   tech: ['HTML', 'SCSS', 'React', 'Fake Store API', 'Local Storage'],
+  //   features: ['Product filtering', 'Routing', 'Quick + Responsive'],
+  //   previews: {
+  //     png: prevTheStorePNG,
+  //     webp: prevTheStoreWEBP,
+  //   },
+  //   links: {
+  //     code: 'https://github.com/HollosJ/the-store/tree/master',
+  //     live: 'https://hollosj.github.io/the-store/',
+  //   },
+  //   inProgress: true,
+  // },
   {
-    name: 'theStore (WIP)',
-    caption: 'E-commerce front-end',
+    name: 'React Countries',
+    caption: 'Country Data application',
     description:
-      'theStore is a mock e-commerce site utilizing local storage, React Routing and the Fake Store API. The user can add and remove items to and from the wishlist and the basket, as well as seeing more detailed descriptions about the individual products, this is all saved for when the user returns to the site.',
-    tech: ['HTML', 'SCSS', 'React', 'Fake Store API', 'Local Storage'],
-    features: ['Product filtering', 'Routing', 'Quick + Responsive'],
+      "React Countries is a web app that utilizes the RESTCountries API to provide users with data on a specific country, including currency, language, capital, and flag. The app also includes a 'skeleton loading' effect. I am familiar with this API, due to using it in a previous project.",
+    tech: ['HTML', 'CSS', 'ReactJS', 'REST API', 'Router DOM'],
+    features: [
+      'RESTCountries API',
+      'Skeleton Loading',
+      'Live search',
+      'Responsive',
+    ],
     previews: {
-      png: prevTheStorePNG,
-      webp: prevTheStoreWEBP,
+      png: prevCountriesPNG,
+      webp: prevCountriesWEBP,
     },
     links: {
-      code: 'https://github.com/HollosJ/the-store/tree/master',
-      live: 'https://hollosj.github.io/the-store/',
+      code: 'https://github.com/HollosJ/country-api/tree/master',
+      live: 'https://hollosj.github.io/country-api',
     },
-    inProgress: true,
+    inProgress: false,
   },
   {
     name: 'Nordiq Travel Agency',
@@ -42,23 +64,6 @@ const myProjects = [
     links: {
       code: 'https://github.com/HollosJ/nordiq-travel',
       live: 'https://hollosj.github.io/nordiq-travel/',
-    },
-    inProgress: false,
-  },
-  {
-    name: 'React Countries',
-    caption: 'Country Data application',
-    description:
-      'React Countries is an app built using the RESTCountries API. It allows the user to search for a country, and instantly get data belonging to that specific country, such as currency, language, capital and flag. This project was based on a project I had previously build in Vanilla JS; I used this as a project to get familiar with React',
-    tech: ['HTML', 'CSS', 'ReactJS', 'REST API'],
-    features: ['RESTCountries API', 'Live search', 'Responsive'],
-    previews: {
-      png: prevCountriesPNG,
-      webp: prevCountriesWEBP,
-    },
-    links: {
-      code: 'https://github.com/HollosJ/react-countries/tree/master',
-      live: 'https://hollosj.github.io/react-countries/',
     },
     inProgress: false,
   },
